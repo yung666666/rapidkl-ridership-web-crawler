@@ -53,6 +53,9 @@ If these files already exist, the script updates them with new data or appends a
 1. Rate Limiting: The script includes a delay between retries (5 + random.uniform(1, 3) seconds) to avoid overwhelming the server. Be respectful of the data source’s terms of use.
 2. Error Handling: If data for a station pair isn’t found or the request fails after retries, it skips that pair and continues.
 3. Performance: Execution time depends on the number of station pairs and network speed. Multithreading significantly speeds up the process.
+   
+## Key Additions
+1. You can set up Windows Task Scheduler to run the script monthly, ensuring you always obtain the latest ridership data.
 
 ## Acknowledgments
 Data provided by data.gov.my.
