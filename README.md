@@ -13,7 +13,7 @@ This Python script fetches passenger volume data between RapidKL railway station
 - Python 3.6 or higher
 - Git (optional, for cloning the repository)
 
-## Installation
+## Installation (Run the code below on "Anaconda Prompt" or "Command Prompt")
 1. **Clone the Repository:** (or download the script directly):
    ```bash
    git clone https://github.com/yung666666/rapidkl-ridership-web-crawler.git
