@@ -43,7 +43,7 @@ The script generates two CSV files in the same directory:
 If these files already exist, the script updates them with new data or appends as needed.
 
 ## How It Works
-1. **Data Source:** Fetches data from [https://data.gov.my/dashboard/rapid-explorer/rail/{A_station}/{B_station}](https://data.gov.my/dashboard/rapid-explorer).
+1. **Data Source:** Fetches data from [https://data.gov.my/dashboard/rapid-explorer}](https://data.gov.my/dashboard/rapid-explorer).
 - Station Pairs: Extracts valid station pairs from a sample page’s JSON data, excluding "A0: All Stations" and self-pairs (A to A).
 2. **Scraping:** Uses requests and BeautifulSoup to scrape JSON data embedded in the HTML.
 3. **Processing:** Converts timestamps to human-readable dates and organizes data into pandas DataFrames.
